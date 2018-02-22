@@ -62,12 +62,11 @@ span {
 }
 @media only screen and (max-width: 450px) {
     #item0 {
-        grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
-        'qsn qsn'
-        'btn1 btn2'
-        'btn3 btn4'
-        'btn5 btn5';
+        'qsn qsn qsn qsn qsn qsn'
+        'btn1 btn1 btn1 btn2 btn2 btn2'
+        'btn3 btn3 btn3 btn4 btn4 btn4'
+        'btn5 btn5 btn5 btn5 btn5 btn5';
     }
     #item1 {
     font-size: 1.25em;
@@ -75,9 +74,13 @@ span {
 }
 @media only screen and (max-width: 250px) {
     #item0 {
-        grid-template-columns: 100%;
         grid-template-areas:
-        'qsn' 'btn1' 'btn2' 'btn3' 'btn4' 'btn5';
+        'qsn qsn qsn qsn qsn qsn'
+        'btn1 btn1 btn1 btn1 btn1 btn1'
+        'btn2 btn2 btn2 btn2 btn2 btn2'
+        'btn3 btn3 btn3 btn3 btn3 btn3'
+        'btn4 btn4 btn4 btn4 btn4 btn4'
+        'btn5 btn5 btn5 btn5 btn5 btn5';
     }
     #item1 {
     font-size: 1em;
