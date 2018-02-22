@@ -18,7 +18,7 @@ html,body {
 #item1 {
   grid-area: qsn;
   font-size: 1.5em;
-  height: 7em;
+  min-height: 7em;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
@@ -62,7 +62,7 @@ span {
   color: #5181b8;
   padding-right: 1em;
 }
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     #item0 {
         grid-template-areas:
         'qsn qsn qsn qsn qsn qsn'
@@ -74,7 +74,7 @@ span {
         font-size: 1.25em;
     }
 }
-@media only screen and (max-width: 250px) {
+@media screen and (max-width: 250px) {
     #item0 {
         grid-template-areas:
         'qsn qsn qsn qsn qsn qsn'
